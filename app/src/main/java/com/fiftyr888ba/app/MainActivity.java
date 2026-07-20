@@ -1,12 +1,13 @@
 package com.fiftyr888ba.app;
 
-import com.fiftyr888ba.app.ai.AIChat;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity {
+public class MainActivity extends AppCompatActivity {
 
-    public static void main(String[] args) {
-        AIChat chat = new AIChat();
-        System.out.println(chat.reply("Assalomu alaykum"));
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
     }
-
 }
