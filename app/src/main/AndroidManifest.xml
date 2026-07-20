@@ -1,0 +1,9 @@
+<manifest package="com.fiftyr888ba.app"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="50R888BA"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+    </application>
+
+</manifest>
