@@ -1,7 +1,12 @@
 package com.fiftyr888ba.app;
 
+import com.fiftyr888ba.app.ai.AIChat;
+
 public class MainActivity {
+
     public static void main(String[] args) {
-        System.out.println("50R888BA started");
+        AIChat chat = new AIChat();
+        System.out.println(chat.reply("Assalomu alaykum"));
     }
+
 }
