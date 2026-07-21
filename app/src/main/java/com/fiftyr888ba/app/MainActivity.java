@@ -1,8 +1,9 @@
-package com.fiftyr888ba.app;
 
+
+package com.fiftyr888ba.app;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import com.fiftyr888ba.app.service.AIService;
+import com.fiftyr888ba.app.AIService;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         aiService = new AIService();
 
-        String javob = aiService.ask("Assalomu alaykum");
+String javob = aiService.askGemini("Assalomu alaykum");
         System.out.println(javob);
     }
 }
